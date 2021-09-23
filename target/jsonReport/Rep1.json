@@ -1,0 +1,323 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-20T12:04:28.186Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2984000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.FrontAccSteps.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1566000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.SeleniumSteps.before()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "To do data driven testing on login functionality",
+        "description": "",
+        "id": "login-function;to-do-data-driven-testing-on-login-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2734000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.SeleniumSteps.after()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2735000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.FrontAccSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1412000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on login page",
+            "match": {
+              "location": "stepDefinition.FrontAccSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2487000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters username as \"demouser\" and password as \"password\" and clicks on login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demouser\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 51
+                }
+              ],
+              "location": "stepDefinition.FrontAccSteps.user_enters_username_as_and_password_as_and_clicks_on_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login \"should\" be happen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"should\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinition.FrontAccSteps.login_be_happen(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-20T12:04:42.293Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1601000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.FrontAccSteps.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1492000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.SeleniumSteps.before()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "To do data driven testing on login functionality",
+        "description": "",
+        "id": "login-function;to-do-data-driven-testing-on-login-functionality;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2766000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.SeleniumSteps.after()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2753000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.FrontAccSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1475000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on login page",
+            "match": {
+              "location": "stepDefinition.FrontAccSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 943000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters username as \"admin\" and password as \"admin123\" and clicks on login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinition.FrontAccSteps.user_enters_username_as_and_password_as_and_clicks_on_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login \"shouldNot\" be happen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shouldNot\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinition.FrontAccSteps.login_be_happen(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-20T12:04:53.350Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1657000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.FrontAccSteps.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1497000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.SeleniumSteps.before()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "To do data driven testing on login functionality",
+        "description": "",
+        "id": "login-function;to-do-data-driven-testing-on-login-functionality;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2614000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.SeleniumSteps.after()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2736000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.FrontAccSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1433000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on login page",
+            "match": {
+              "location": "stepDefinition.FrontAccSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1920000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters username as \"hr\" and password as \"hr123\" and clicks on login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hr\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"hr123\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinition.FrontAccSteps.user_enters_username_as_and_password_as_and_clicks_on_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Positive Test Failed\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat stepDefinition.FrontAccSteps.login_be_happen(FrontAccSteps.java:56)\r\n\tat ✽.login \"should\" be happen(file:///C:/Users/Shree/eclipse-workspace/Cucumber/src/test/resources/Features/Frontacc.feature:5)\r\n",
+              "duration": 20000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "login \"should\" be happen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"should\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinition.FrontAccSteps.login_be_happen(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login function",
+    "description": "",
+    "id": "login-function",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Frontacc.feature",
+    "tags": []
+  }
+]
